@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/KTDK.js"></script>
+</head>
+<body>
+    <div class="container">
+        <center><h1 style="color: aqua;">ĐĂNG NHẬP</h1></center>
+        <form role="form" class="form-horizontal" style="margin-top: 10px;">
+            <div class="form-group">
+                <div id="thongbao" class="text-danger" style="text-align: center;"></div>
+            </div>
+            <label for="txtTK" class="control-label col-xs-3">Tài khoản</label>
+            <div class="col-xs-7">
+                <input type="text" id="txtTK" class="form-control" >
+                <span class="text-danger" id="tbTK">*</span>
+            </div>
+            <label for="txtMK" class="control-label col-xs-3">Mật khẩu</label>
+            <div class="col-xs-7">
+                <input type="password" id="txtMK" class="form-control" placeholder="Nhập mật khẩu">
+                <span class="text-danger" style="color: red;" id="tbMK">*</span>
+            </div>
+            <div class="col-xs-12">
+                <center><button type="submit" id="dn">Đăng nhập</button></center>
+                <center><a href="http://accounts.google.com">Đăng nhập bằng google</a></center>
+                <center><a href="..\HTML\DangKy.html">Chưa có tài khoản? Đăng ký ngay.</a></center>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

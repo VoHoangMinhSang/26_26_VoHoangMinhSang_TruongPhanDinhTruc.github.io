@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <script src="../JS/jquery-3.6.0.min.js"></script>
+    <script src="../JS/bootstrap.min.js"></script>
+    <script src="../JS/KTDK.js"></script>
+</head>
+<body>
+    <div class="container">
+            <div class="col-xs-12">
+        <center><h1 style="color: aqua;">ĐĂNG KÝ</h1></center>
+        <form role="form" class="form-horizontal" style="margin-top: 10px;">
+            <div class="form-group">
+                <div id="thongbao" class="text-danger" style="text-align: center;"></div>
+            </div>
+            <label for="txtTK" class="control-label col-xs-3">Tài khoản</label>
+            <div class="col-xs-9">
+                <input type="text" id="txtTK" class="form-control" >
+                <span class="text-danger" id="tbTK">*</span>
+            </div>
+            <label for="txtMK" class="control-label col-xs-3">Mật khẩu</label>
+            <div class="col-xs-9">
+                <input type="password" id="txtMK" class="form-control" placeholder="Nhập mật khẩu">
+                <span class="text-danger" style="color: red;" id="tbMK">*</span>
+            </div>
+            <label for="txtNMK" class="control-label col-xs-3">Nhập lại mật khẩu</label>
+            <div class="col-xs-9">
+                <input type="password" id="txtNMK" class="form-control" placeholder="Nhập lại mật khẩu">
+                <span class="text-danger" style="color: red;" id="tbNMK">*</span>
+            </div>
+            <label for="txtEmail" class="control-label col-xs-3">Nhập Email</label>
+            <div class="col-xs-9">
+                <input type="email" id="txtEmail" class="form-control" placeholder="Nhập Email">
+                <span class="text-danger" style="color: red;" id="tbEmail">*</span>
+            </div>
+            <label for="txtHT" class="control-label col-xs-3">Họ tên</label>
+            <div class="col-xs-9">
+                <input type="text" id="txtHT" class="form-control" placeholder="Họ và tên">
+                <span class="text-danger" id="tbHT">*</span>
+            </div>
+            <label for="txtSDT" class="control-label col-xs-3">Số điện thoại</label>
+            <div class="col-xs-9">
+                <input type="text" id="txtSDT" class="form-control" placeholder="0000-000-000">
+                <span class="text-danger" id="tbSDT">*</span>
+            </div>
+            <div class="col-xs-12">
+                <center><button type="submit" id="btnDK">Đăng ký</button></center>
+                <center><a href="http://accounts.google.com">Đăng nhập bằng google</a></center>
+                <center><a href="..\HTML\DangNhap.html">Đã có tài khoản, đăng nhập ngay.</a></center>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

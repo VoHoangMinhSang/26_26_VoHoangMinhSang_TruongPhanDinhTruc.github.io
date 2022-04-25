@@ -1,0 +1,11 @@
+.list-product-title{
+    width: 100%;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.card-product{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
